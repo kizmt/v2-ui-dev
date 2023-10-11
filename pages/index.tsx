@@ -26,8 +26,8 @@ const Home = () => {
     // createOpenOrder();
     // placeOrder()
     // postOrder();
-    // createMarket();
-    getLeafNodes()
+    createMarket();
+    // getLeafNodes();
   }, [])
   return (
 
@@ -54,7 +54,7 @@ const Home = () => {
                 {/* name */}
                 <div className="flex justify-center items-center gap-2">
                   <p className="text-white uppercase select-none text-[16px] font-bold font-inter">
-                    sloape
+                    solape
                   </p>
                   <p className="w-[2px] h-[20px] bg-white rotate-12"></p>
                   <p className="text-white uppercase select-none text-[16px] font-bold font-inter">
